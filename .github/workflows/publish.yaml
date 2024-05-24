@@ -15,5 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18" # Ensure you are using a compatible version
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Publish package
         run: npx jsr publish
