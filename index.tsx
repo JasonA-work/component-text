@@ -14,8 +14,7 @@ interface Props extends React.HTMLAttributes<HTMLElement> {
 }
 
 /**
- * This component accepts all standard HTML attributes for an HTMLElement
- * via the `props` object, thanks to extending `React.HTMLAttributes<HTMLElement>`.
+ * This component accepts all standard HTML attributes for an HTMLElement.
  *
  * @param {Props} props - Props for the component.
  * @returns {React.ReactElement } The rendered HTML element.
