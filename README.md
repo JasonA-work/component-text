@@ -4,7 +4,7 @@ This package contains a single module that exports a `Text` component. The `Text
 
 ## Installation
 
-To install the package, use npm or yarn:
+To install the package, use pnpm:
 
 ```sh
 pnpm dlx jsr add @witt/text
